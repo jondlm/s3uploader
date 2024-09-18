@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>s3uploader</title>
+  </head>
+  <body>
+    <h1>s3 uploader</h1>
+
+    <form action="/upload" method="post" enctype="multipart/form-data">
+      <label style="margin: 5px 0 5px 0">
+        Upload a png:
+        <br />
+        <input type="file" name="file" accept="image/png" />
+      </label>
+      <br />
+
+      <input type="submit" value="Upload" />
+    </form>
+  </body>
+</html>
